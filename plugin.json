@@ -1,14 +1,14 @@
 {
     "name" : "Boundary MySQL Plugin",
     "version" : "0.9.3",
-    "meterVersionRequired": "4.2.0-611",
+    "meterVersionRequired": "4.5.0-778",
     "unsupportedPlatforms" : [],
     "tags" : "mysql",
     "description" : "Displays important mysql metrics",
     "icon" : "icon.png",
     "command" : "node index.js",
     "postExtract" : "npm install",
-    "command_lua" : "boundary-meter init.lua",
+    "command_lua" : "truesight-luvit init.lua",
     "postExtract_lua" : "",
     "ignore" : "node_modules",
 
