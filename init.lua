@@ -48,12 +48,12 @@ function MySQLDataSource:fetch(context, callback, params)
   end
   self.client:query('SHOW /*!50002 GLOBAL */ STATUS', function (err, status, fields) 
     if err then
-      err.source = self.source
+      --err.source = self.source -- removed for luvit platform
       self:emit('error', err)
     else
       self.client:query('SHOW GLOBAL VARIABLES', function (err, variables, fields)
         if (err) then
-          err.source = self.source
+          --err.source = self.source
           self:emit('error', err)
         else
           local result = merge(status, variables)
