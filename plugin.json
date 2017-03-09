@@ -1,6 +1,6 @@
 {
-    "name" : "Boundary MySQL Plugin",
-    "version" : "0.9.3",
+    "name" : "TrueSight Pulse MySQL Plugin",
+    "version" : "0.9.4",
     "meterVersionRequired": "4.5.0-778",
     "unsupportedPlatforms" : [],
     "tags" : "mysql",

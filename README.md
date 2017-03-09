@@ -1,19 +1,19 @@
-# Boundary MySQL Plugin
+# TrueSight Pulse MySQL Plugin
 
-Collects metrics from a MySQL database instance. See video [walkthrough](https://help.boundary.com/hc/articles/201536772).
+Collects metrics from a MySQL database instance. See video [walkthrough](https://help.truesight.bmc.com/hc/en-us/articles/201536772).
 
 ### Prerequisites
 
 #### Supported OS
 
-|     OS    | Linux | Windows | SmartOS | OS X |
-|:----------|:-----:|:-------:|:-------:|:----:|
-| Supported |   v   |    v    |    v    |  v   |
+|     OS    | Linux | Windows | OS X |
+|:----------|:-----:|:-------:|:----:|
+| Supported |   v   |    v    |  v   |
 
-#### Boundary Meter versions v4.2 or later
+#### TrueSight Pulse Meter versions v4.5 or later
 
-- To install new meter go to Settings->Installation or [see instructions](https://help.boundary.com/hc/en-us/sections/200634331-Installation).
-- To upgrade the meter to the latest version - [see instructions](https://help.boundary.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter).
+- To install new meter go to Settings->Installation or [see instructions](https://help.truesight.bmc.com/hc/en-us/sections/200634331-Installation).
+- To upgrade the meter to the latest version - [see instructions](https://help.truesight.bmc.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter).
 
 ### Plugin Setup
 
