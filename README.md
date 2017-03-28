@@ -4,6 +4,8 @@ Collects metrics from a MySQL database instance. See video [walkthrough](https:/
 
 ### Prerequisites
 
+User must have the appropriate privilleges granted to connect remotely/locally.
+
 #### Supported OS
 
 |     OS    | Linux | Windows | OS X |
