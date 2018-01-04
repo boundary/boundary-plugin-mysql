@@ -1,6 +1,6 @@
 {
     "name" : "TrueSight Pulse MySQL Plugin",
-    "version" : "0.9.4",
+    "version" : "0.9.5",
     "meterVersionRequired": "4.5.0-778",
     "unsupportedPlatforms" : [],
     "tags" : "mysql",
@@ -10,6 +10,7 @@
     "postExtract" : "npm install",
     "command_lua" : "truesight-luvit init.lua",
     "postExtract_lua" : "",
+    "secure": true,
     "ignore" : "node_modules",
 
     "metrics" : [
